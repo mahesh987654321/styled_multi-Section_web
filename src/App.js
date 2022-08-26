@@ -4,10 +4,11 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>

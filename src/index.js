@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from "./pages/GlobalStyle";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const theme = {
   colors: {
@@ -29,6 +30,7 @@ const theme = {
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <BrowserRouter>
         <App />
       </BrowserRouter>
