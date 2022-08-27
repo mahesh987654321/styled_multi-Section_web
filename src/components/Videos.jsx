@@ -2,8 +2,7 @@ import { Box } from "@mui/material";
 import { Stack } from "@mui/system";
 import React from "react";
 import { VideoCard, ChannelCard } from "../components";
-const Videos = ({ videos }) => {
-  let direction;
+const Videos = ({ videos, direction }) => {
   return (
     <div>
       <Stack
