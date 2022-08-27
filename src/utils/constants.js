@@ -16,7 +16,7 @@ export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
-  { name: "JS Mastery", icon: <CodeIcon /> },
+
   { name: "Coding", icon: <CodeIcon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
   { name: "NextJS", icon: <CodeIcon /> },
@@ -38,7 +38,6 @@ export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
 export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
 export const demoVideoUrl = "/video/GDa8kZLNhJ4";
 export const demoChannelTitle = "Mahesh Biswas";
-export const demoVideoTitle =
-  "YouTube Clone By Mahesh Biswas";
+export const demoVideoTitle = "YouTube Clone By Mahesh Biswas";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
